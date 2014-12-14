@@ -1,0 +1,154 @@
+body {
+        margin: 0;
+}
+
+#container, footer {
+        width: 100%;
+}
+
+header {
+        color: #fff;
+        background-color: #f02332;
+}
+
+a {
+        text-decoration: none;
+        color: #f02332;
+}
+
+h1, .disclaimer, .summary, .block-quote {
+        width: 80%;
+        margin: 0 auto;
+}
+
+h1 {
+        font-family: 'Paytone One', sans-serif;
+        font-size: 180px;
+        text-align: center;
+        line-height: 170px;
+        padding-top: 100px;
+}
+
+.disclaimer {
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'Paytone One', sans-serif;
+        padding-bottom: 20px;
+        font-size: 20px;
+        padding-bottom: 100px;
+}
+
+.summary {
+        font-size: 50px;
+        margin-top: 200px;
+        margin-bottom: 200px;
+        font-family: "Times New Roman", serif;
+
+}
+
+.block-quote {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        border-top: 1px solid #cdcdcd;
+        width: 80%;
+}
+
+.quote {
+        font-size: 40px;
+        margin-bottom: 30px;
+        font-style: italic;
+        font-family: "Times New Roman", serif;
+}
+
+.attribution {
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 200;
+        text-align: right;
+
+}
+
+footer {  
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Paytone One', sans-serif;
+        height: 200px;
+        background-color: #f02332;
+        bottom: 0;
+        line-height: 100px;
+        color: #fff;
+        padding-top: 50px;
+        padding-bottom: 50px;
+}
+
+footer p {
+        margin: 0;
+}
+
+footer p, footer a{
+        display: block;
+}
+
+footer a {
+        color: #cdcdcd;
+        display: inline-block;
+}
+
+.fa {
+        font-size: 60px !important;
+        color: #fff;
+        margin: 10px 5px 0px 5px;
+}
+
+/*tablet*/
+@media screen and (max-width: 1023px){
+
+        h1 {
+                font-size: 110px;
+                line-height: 110px;
+        }     
+}
+
+/*mobile*/
+@media screen and (max-width: 767px){
+        
+        h1 {
+                font-size: 50px;
+                line-height: 60px;
+        } 
+
+        h1, .disclaimer, .summary, .block-quote {
+                width: 90%;
+        } 
+
+        .summary {
+                margin-top: 50px;
+                margin-bottom: 50px;
+                font-size: 30px;
+        }
+
+        .block-quote {
+                padding-top: 30px;
+                padding-bottom: 30px;
+                width: 90%;
+        }
+
+        .quote {
+                font-size: 25px;
+                margin-bottom: 20px;
+        }
+
+        .attribution {
+                font-size: 20px;
+        }
+
+        footer {
+                line-height: 30px;
+                height: auto;
+        }
+
+        footer p {
+                font-size: 18px;
+        }
+}
+
